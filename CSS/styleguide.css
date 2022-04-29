@@ -1,0 +1,342 @@
+:root {
+    --black-4: 
+  rgba(0, 0, 0, 0.122);
+    --black-2: 
+  rgba(0, 0, 0, 0.298);
+    --black-5: 
+  rgba(0, 0, 0, 0.522);
+    --black-3: 
+  rgba(0, 0, 0, 0.6);
+    --black-6: 
+  rgba(0, 0, 0, 0.698);
+    --black: 
+  rgba(0, 0, 0, 1);
+    --blue-ribbon: 
+  rgba(0, 111, 255, 1);
+    --tropical-rain-forest: 
+  rgba(0, 119, 83, 1);
+    --jade: 
+  rgba(4, 167, 119, 1);
+    --bunker: 
+  rgba(19, 20, 21, 1);
+    --eerie-black: 
+  rgba(25, 25, 25, 1);
+    --eerie-black-2: 
+  rgba(32, 32, 32, 1);
+    --big-stone: 
+  rgba(33, 45, 64, 1);
+    --mine-shaft: 
+  rgba(51, 51, 51, 1);
+    --boulder: 
+  rgba(120, 120, 120, 1);
+    --alto: 
+  rgba(220, 220, 220, 1);
+    --polar: 
+  rgba(229, 250, 244, 1);
+    --alabaster: 
+  rgba(250, 250, 250, 1);
+    --white: 
+  rgba(255, 255, 255, 1);
+  
+    --font-size-xxxs: 11.9px;
+    --font-size-xs: 14px;
+    --font-size-s: 0.8333333333333334vw;
+    --font-size-m: 0.9375vw;
+    --font-size-l: 24px;
+    --font-size-xl: 30px;
+    --font-size-xl2: 36px;
+    --font-size-xxs2: 12px;
+  
+    --font-family-inter: "Inter";
+    --font-family-oooh_baby: "Oooh Baby";
+    --font-family-patron-bold: "Patron-Bold";
+  }
+  
+  /* Classes */
+  
+  .inter-normal-black-16px-2 {
+    color: var(--black-6);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-tropical-rain-forest-16px {
+    color: var(--tropical-rain-forest);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .patron-bold-white-72px {
+    color: var(--white);
+    font-family: var(--font-family-patron-bold);
+    font-size: 72px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .inter-normal-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .ooohbaby-normal-tropical-rain-forest-36px {
+    color: var(--tropical-rain-forest);
+    font-family: var(--font-family-oooh_baby);
+    font-size: var(--font-size-xl2);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-light-white-18px {
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 300;
+    font-style: normal;
+  }
+  .inter-semi-bold-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 600;
+    font-style: normal;
+  }
+  .border-1px-black-4 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--black-4);
+  }
+  .inter-normal-black-11-9px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxxs);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-semi-bold-black-11-9px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxxs);
+    font-weight: 600;
+    font-style: normal;
+  }
+  .inter-normal-eerie-black-18px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-bunker-14px {
+    color: var(--bunker);
+    font-family: var(--font-family-inter);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-medium-blue-ribbon-16px {
+    color: var(--blue-ribbon);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .inter-normal-white-11-9px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxxs);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-18px-3 {
+    color: var(--black-2);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-light-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 300;
+    font-style: normal;
+  }
+  .inter-normal-black-16px {
+    color: var(--black-2);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-16px-3 {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-tropical-rain-forest-12px {
+    color: var(--tropical-rain-forest);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxs2);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .border-1px-alto {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--alto);
+  }
+  .inter-medium-eerie-black-16px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .inter-medium-jade-14px {
+    color: var(--jade);
+    font-family: var(--font-family-inter);
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .inter-normal-alabaster-20px {
+    color: var(--alabaster);
+    font-family: var(--font-family-inter);
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-mine-shaft-12px {
+    color: var(--mine-shaft);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxs2);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-18px-22 {
+    color: var(--black-5);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-light-tropical-rain-forest-18px {
+    color: var(--tropical-rain-forest);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 300;
+    font-style: normal;
+  }
+  .ooohbaby-normal-tropical-rain-forest-64px {
+    color: var(--tropical-rain-forest);
+    font-family: var(--font-family-oooh_baby);
+    font-size: 64px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-semi-bold-white-11-9px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxxs);
+    font-weight: 600;
+    font-style: normal;
+  }
+  .border-0-8px-boulder {
+    border-width: 0.8px;
+    border-style: solid;
+    border-color: var(--boulder);
+  }
+  .inter-normal-black-10-7px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: 10.677966117858887px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-eerie-black-14px {
+    color: var(--eerie-black-2);
+    font-family: var(--font-family-inter);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-bold-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .inter-medium-jade-24px {
+    color: var(--jade);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-l);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .inter-medium-black-16px {
+    color: var(--black-3);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .inter-normal-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-20px {
+    color: var(--black-2);
+    font-family: var(--font-family-inter);
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-medium-white-16px {
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .inter-normal-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .patron-bold-blue-ribbon-30px {
+    color: var(--blue-ribbon);
+    font-family: var(--font-family-patron-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .inter-normal-white-10-7px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: 10.677966117858887px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-tropical-rain-forest-24px {
+    color: var(--tropical-rain-forest);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .patron-bold-big-stone-36px {
+    color: var(--big-stone);
+    font-family: var(--font-family-patron-bold);
+    font-size: var(--font-size-xl2);
+    font-weight: 700;
+    font-style: normal;
+  }
